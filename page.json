@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "id": "7x3enfarll",
+      "name": {
+        "tr": "Hizmetlerimiz",
+        "en": "Our services",
+        "ar": "خدماتنا"
+      },
+      "description": {
+        "tr": "Adresten imzaya; koliden teslim notuna.",
+        "en": "From address to signature; from parcel to delivery note.",
+        "ar": "من العنوان إلى التوقيع؛ من الشحنة إلى ملاحظة التسليم."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ydqf7p",
+          "rajxow"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About us",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "aiusqc",
+          "tjso9v"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kargo ve dağıtım; görseller temsilîdir.",
+        "en": "Cargo and delivery; images are representative.",
+        "ar": "شحن وتوصيل؛ الصور تمثيلية."
+      }
+    },
+    {
+      "id": "abcndxghor",
+      "name": {
+        "tr": "Ekibimiz",
+        "en": "Our team",
+        "ar": "فريقنا"
+      },
+      "description": {
+        "tr": "Sizi karşılayan çalışanlarımız.",
+        "en": "The staff who welcomes you.",
+        "ar": "الموظفون الذين يستقبلونكم."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "dmxdtw",
+          "no6r5x"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "29tu3s83et",
+      "name": {
+        "tr": "Sıkça sorulanlar",
+        "en": "FAQ",
+        "ar": "الأسئلة الشائعة"
+      },
+      "description": {
+        "tr": "Merak edilenler ve kısa yanıtlar.",
+        "en": "Common questions and short answers.",
+        "ar": "أسئلة متكررة وإجابات موجزة."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "sbxkmz",
+          "rajxow"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "fzp7gvrrgc",
+      "name": {
+        "tr": "Referanslar",
+        "en": "References",
+        "ar": "المرجعيات"
+      },
+      "description": {
+        "tr": "İş ortaklarımız ve müşteri yorumlarımız (kurgusal).",
+        "en": "Our partners and customer reviews (fictional).",
+        "ar": "شركاؤنا وتقييمات عملائنا (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "b8rg77",
+          "no6r5x",
+          "rajxow"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "54u7s1se8q",
+      "name": {
+        "tr": "Teklif al",
+        "en": "Get a quote",
+        "ar": "اطلب عرض سعر"
+      },
+      "description": {
+        "tr": "Teklif formu (demo).",
+        "en": "Quote form (demo).",
+        "ar": "نموذج طلب عرض سعر (تجريبي)."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "zic5ay"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "8nxa7d",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}
