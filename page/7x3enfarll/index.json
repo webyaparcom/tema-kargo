@@ -1,0 +1,40 @@
+{
+  "id": "7x3enfarll",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Adresten imzaya; koliden teslim notuna.",
+    "en": "From address to signature; from parcel to delivery note.",
+    "ar": "من العنوان إلى التوقيع؛ من الشحنة إلى ملاحظة التسليم."
+  },
+  "keyword": {
+    "tr": "Sevk & Teslim",
+    "en": "Dispatch & Delivery",
+    "ar": "إرسال وتسليم"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ydqf7p",
+      "rajxow"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:58:36.155Z",
+  "update": "2026-11-05T23:44:37.884Z"
+}

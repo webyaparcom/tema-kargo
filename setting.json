@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Kargo ve dağıtım; görseller temsilîdir.",
+    "en": "Cargo and delivery; images are representative.",
+    "ar": "شحن وتوصيل؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "kargo, tır, depo",
+    "en": "cargo, truck, warehouse",
+    "ar": "شحن، شاحنة، مستودع"
+  },
+  "category": "Kurumsal",
+  "name": "Nakliye Kargo",
+  "domain": "kargo.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "barlow-condensed",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#B8471D",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}
