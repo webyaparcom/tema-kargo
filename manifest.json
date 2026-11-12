@@ -1,7 +1,7 @@
 {
   "name": "Nakliye Kargo",
   "short_name": "Nakliye Karg",
-  "description": "Kargo ve dağıtım; görseller temsilîdir.",
+  "description": "Kargo, koli ve palet taşıma; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

@@ -9,8 +9,8 @@
       },
       "description": {
         "tr": "Adresten imzaya; koliden teslim notuna.",
-        "en": "From address to signature; from parcel to delivery note.",
-        "ar": "من العنوان إلى التوقيع؛ من الشحنة إلى ملاحظة التسليم."
+        "en": "From pickup address to signature.",
+        "ar": "من عنوان الاستلام إلى التوقيع."
       },
       "path": "hizmetler",
       "icon": "work",

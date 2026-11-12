@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Kargo ve dağıtım; görseller temsilîdir.",
-    "en": "Cargo and delivery; images are representative.",
-    "ar": "شحن وتوصيل؛ الصور تمثيلية."
+    "tr": "Kargo, koli ve palet taşıma; görseller temsilîdir.",
+    "en": "Cargo, parcel and pallet transport; images are representative.",
+    "ar": "شحن وتوصيل الطرود والبالتات؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "kargo, tır, depo",
-    "en": "cargo, truck, warehouse",
-    "ar": "شحن، شاحنة، مستودع"
+    "tr": "kargo, koli, palet, kapıda teslim",
+    "en": "cargo, parcels, pallets, door delivery",
+    "ar": "شحن، طرود، بالتات، توصيل إلى الباب"
   },
   "category": "Kurumsal",
   "name": "Nakliye Kargo",

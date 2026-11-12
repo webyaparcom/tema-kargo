@@ -7,13 +7,13 @@
   },
   "description": {
     "tr": "Adresten imzaya; koliden teslim notuna.",
-    "en": "From address to signature; from parcel to delivery note.",
-    "ar": "من العنوان إلى التوقيع؛ من الشحنة إلى ملاحظة التسليم."
+    "en": "From pickup address to signature.",
+    "ar": "من عنوان الاستلام إلى التوقيع."
   },
   "keyword": {
-    "tr": "Sevk & Teslim",
-    "en": "Dispatch & Delivery",
-    "ar": "إرسال وتسليم"
+    "tr": "Sevkiyat & teslimat",
+    "en": "Dispatch & delivery",
+    "ar": "الشحن والتسليم"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:36.155Z",
-  "update": "2026-11-05T23:44:37.884Z"
+  "update": "2026-11-12T07:36:14.422Z"
 }
