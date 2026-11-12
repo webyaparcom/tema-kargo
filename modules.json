@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Fiyat iste",
+          "en": "Get a price",
+          "ar": "اطلب سعرًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1535,28 +1546,28 @@
         "eyebrow": {
           "tr": "Kargo & ekspres",
           "en": "Cargo & express",
-          "ar": "شحن وعبر"
+          "ar": "شحن وتوصيل سريع"
         },
         "title": {
           "tr": "Koliden imzaya",
           "en": "From parcel to signature",
-          "ar": "من الشحنة إلى التوقيع"
+          "ar": "من الطرد إلى التوقيع"
         },
         "metin": {
-          "tr": "Nakliye Kargo, kargo ve dağıtım sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Nakliye provides cargo and delivery. Images are representative and text is fictional.",
-          "ar": "يقدم نقلية شحن وتوصيل. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Koli ve palet taşıma, depodan kapıya dağıtım, takip numarasıyla izleme. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Parcel and pallet transport, depot-to-door distribution and tracking numbers. Images are representative and text is fictional.",
+          "ar": "نقل الطرود والبالتات، وتوزيع من المستودع إلى الباب، ومتابعة برقم التتبع. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Hizmet ağı",
           "en": "Service network",
-          "ar": "شبكة خدمات"
+          "ar": "شبكة الخدمة"
         },
         "cta1_url": "hizmetler",
         "cta2": {
           "tr": "Fiyat iste",
-          "en": "Request price",
-          "ar": "اطلب سعر"
+          "en": "Request a price",
+          "ar": "اطلب سعرًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl taşıyoruz?",
-          "en": "How do we transport?",
-          "ar": "كيف ننقل؟"
+          "tr": "Rakamlarla ağımız",
+          "en": "Our network in numbers",
+          "ar": "شبكتنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1619,7 +1630,7 @@
           "etiket": {
             "tr": "Günlük teslim",
             "en": "Daily deliveries",
-            "ar": "توصيلات يومية"
+            "ar": "توصيلة يومية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1649,7 +1660,7 @@
           "etiket": {
             "tr": "Zamanında teslim",
             "en": "On-time delivery",
-            "ar": "توصيل في الوقت"
+            "ar": "تسليم في الموعد"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1662,9 +1673,9 @@
           "sonek": "",
           "ikon": "inventory",
           "etiket": {
-            "tr": "Palet",
-            "en": "Pallets",
-            "ar": "بلطات"
+            "tr": "Günlük palet",
+            "en": "Daily pallets",
+            "ar": "بالتات يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,85 +1706,85 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Sevk & Teslim",
-          "en": "Dispatch & Delivery",
-          "ar": "إرسال وتسليم"
+          "tr": "Sevkiyat & teslimat",
+          "en": "Dispatch & delivery",
+          "ar": "الشحن والتسليم"
         },
         "title": {
           "tr": "Nasıl taşıyoruz?",
-          "en": "How do we transport?",
-          "ar": "كيف ننقل؟"
+          "en": "How do we deliver?",
+          "ar": "كيف ننقل شحنتك؟"
         },
         "description": {
           "tr": "Adresten imzaya; koliden teslim notuna.",
-          "en": "From address to signature; from parcel to delivery note.",
-          "ar": "من العنوان إلى التوقيع؛ من الشحنة إلى ملاحظة التسليم."
+          "en": "From pickup address to signature.",
+          "ar": "من عنوان الاستلام إلى التوقيع."
         }
       },
       "data": [
         {
           "icon": "local_shipping",
           "name": {
-            "tr": "Kapıdan teslim",
-            "en": "Door delivery",
-            "ar": "توصيل من الباب"
+            "tr": "Kapıdan kapıya teslim",
+            "en": "Door-to-door delivery",
+            "ar": "توصيل من الباب إلى الباب"
           },
           "description": {
-            "tr": "Günlük filo ve rota planı.",
-            "en": "Daily fleet and route plan.",
-            "ar": "أسطول يومي وخطة مسار."
+            "tr": "Adresten alım, adrese teslim; imza ve saat kaydıyla.",
+            "en": "Pickup and delivery at the address, with signature and time record.",
+            "ar": "استلام من العنوان وتسليم إلى العنوان مع توقيع وتسجيل للوقت."
           }
         },
         {
           "icon": "inventory",
           "name": {
-            "tr": "Koli ve palet",
-            "en": "Parcel and pallet",
-            "ar": "شحن وبلط"
+            "tr": "Koli ve palet taşıma",
+            "en": "Parcel and pallet transport",
+            "ar": "نقل الطرود والبالتات"
           },
           "description": {
-            "tr": "Etiket, koli ve palet işareti.",
-            "en": "Label, parcel and pallet marking.",
-            "ar": "وسمة وبلطة وعلامة."
+            "tr": "Etiketli, sarılı ve sayılı koli ve palet yükleri.",
+            "en": "Labelled, wrapped and counted parcel and pallet loads.",
+            "ar": "طرود وبالتات مُلصقة ومغلّفة ومعدودة."
           }
         },
         {
           "icon": "route",
           "name": {
-            "tr": "Filo takibi",
-            "en": "Fleet tracking",
-            "ar": "تتبع الأسطول"
+            "tr": "Sefer ve rota planı",
+            "en": "Trip and route planning",
+            "ar": "تخطيط الرحلات والمسارات"
           },
           "description": {
-            "tr": "Rota ve zaman çizelgesi.",
-            "en": "Route and schedule.",
-            "ar": "مسار وجدول زمني."
+            "tr": "Günlük sefer çizelgesi ve şehirler arası hat.",
+            "en": "Daily trip schedule and intercity lines.",
+            "ar": "جدول رحلات يومي وخطوط بين المدن."
           }
         },
         {
           "icon": "warehouse",
           "name": {
-            "tr": "Depo operasyonu",
-            "en": "Warehouse operation",
-            "ar": "عملية المستودع"
+            "tr": "Depolama ve sevkiyat",
+            "en": "Storage and dispatch",
+            "ar": "التخزين والإرسال"
           },
           "description": {
-            "tr": "Raflama ve sevkiyat.",
-            "en": "Shelving and dispatch.",
-            "ar": "تخزين على الرف وشحن."
+            "tr": "Kısa süreli depolama, raflama ve toplu sevk.",
+            "en": "Short-term storage, shelving and bulk dispatch.",
+            "ar": "تخزين قصير الأجل وترتيب على الرفوف وإرسال بالجملة."
           }
         },
         {
           "icon": "task",
           "name": {
-            "tr": "Takip numarası",
-            "en": "Tracking number",
-            "ar": "رقم تتبع"
+            "tr": "Gönderi takibi",
+            "en": "Shipment tracking",
+            "ar": "تتبع الشحنات"
           },
           "description": {
-            "tr": "Sipariş ve teslim kaydı.",
-            "en": "Order and delivery record.",
-            "ar": "سجل طلب وتسليم."
+            "tr": "Takip numarasıyla alım, aktarma ve teslim adımları.",
+            "en": "Pickup, transfer and delivery steps by tracking number.",
+            "ar": "خطوات الاستلام والتحويل والتسليم برقم التتبع."
           }
         },
         {
@@ -1781,12 +1792,12 @@
           "name": {
             "tr": "Müşteri hattı",
             "en": "Customer line",
-            "ar": "خط العملاء"
+            "ar": "خط خدمة العملاء"
           },
           "description": {
-            "tr": "Yanıt ve bilgi hattı (demo).",
-            "en": "Response and information line (demo).",
-            "ar": "خط رد ومعلومات (تجريبي)."
+            "tr": "Gönderi bilgisi için telefon ve WhatsApp hattı (demo).",
+            "en": "Phone and WhatsApp line for shipment information (demo).",
+            "ar": "خط هاتف وواتساب للاستفسار عن الشحنات (تجريبي)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Gönderi yolculuğu",
+          "en": "Shipment journey",
+          "ar": "رحلة الشحنة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda teslimat",
+          "en": "Delivery in four steps",
+          "ar": "التسليم في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Alımdan imzaya aynı akış.",
+          "en": "The same flow from pickup to signature.",
+          "ar": "المسار نفسه من الاستلام إلى التوقيع."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1841,22 +1852,22 @@
             "ar": "الاستلام"
           },
           "text": {
-            "tr": "Adres ve koli kontrolü.",
-            "en": "Address and parcel check.",
-            "ar": "فحص عنوان وشحنة."
+            "tr": "Adreste koli sayımı ve etiketleme.",
+            "en": "Parcels are counted and labelled at the address.",
+            "ar": "عدّ الطرود وإلصاق الملصقات في موقع الاستلام."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Depo",
-            "en": "Depot",
-            "ar": "المستودع"
+            "tr": "Aktarma",
+            "en": "Transfer",
+            "ar": "التحويل"
           },
           "text": {
-            "tr": "Etiket ve rafa kod.",
-            "en": "Label and code to the shelf.",
-            "ar": "وسمة وكود على الرف."
+            "tr": "Transfer merkezinde ayrıştırma ve raf kodu.",
+            "en": "Sorting and shelf code at the transfer hub.",
+            "ar": "الفرز وترميز الرفوف في مركز التحويل."
           }
         },
         {
@@ -1867,9 +1878,9 @@
             "ar": "الإرسال"
           },
           "text": {
-            "tr": "Rota ve filo planı.",
-            "en": "Route and fleet plan.",
-            "ar": "خطة مسار وأسطول."
+            "tr": "Rota ve araç planına göre yola çıkış.",
+            "en": "Departure according to the route and vehicle plan.",
+            "ar": "الانطلاق وفق خطة المسار والمركبة."
           }
         },
         {
@@ -1880,9 +1891,9 @@
             "ar": "التسليم"
           },
           "text": {
-            "tr": "İmza ve teslim notu.",
-            "en": "Signature and delivery note.",
-            "ar": "توقيع وملاحظة تسليم."
+            "tr": "İmza, saat ve teslim notu kaydı.",
+            "en": "Signature, time and delivery note are recorded.",
+            "ar": "تسجيل التوقيع والوقت وملاحظة التسليم."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Operasyon ekibi",
+          "en": "Operations team",
+          "ar": "فريق العمليات"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Gönderinizle ilgilenenler",
+          "en": "The people handling your shipment",
+          "ar": "من يتولّون شحنتك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Volkan T.",
           "role": {
-            "tr": "Filo sorumlu",
+            "tr": "Filo sorumlusu",
             "en": "Fleet manager",
-            "ar": "مسؤول أسطول"
+            "ar": "مسؤول الأسطول"
           },
           "bio": {
-            "tr": "9 yıl rota.",
-            "en": "9 years of routes.",
-            "ar": "٩ سنوات في المسارات."
+            "tr": "9 yıl filo ve rota planlama.",
+            "en": "9 years of fleet and route planning.",
+            "ar": "9 سنوات في تخطيط الأسطول والمسارات."
           },
           "img": ""
         },
         {
           "name": "Serkan A.",
           "role": {
-            "tr": "Depo",
+            "tr": "Depo sorumlusu",
             "en": "Warehouse lead",
-            "ar": "مستودع"
+            "ar": "مسؤول المستودع"
           },
           "bio": {
-            "tr": "6 yıl rafa kod.",
-            "en": "6 years of coding to shelf.",
-            "ar": "٦ سنوات في كود الرف."
+            "tr": "6 yıl transfer merkezi ve raflama.",
+            "en": "6 years in the transfer hub and shelving.",
+            "ar": "6 سنوات في مركز التحويل وتنظيم الرفوف."
           },
           "img": ""
         },
         {
           "name": "Umut B.",
           "role": {
-            "tr": "Hat",
-            "en": "Hotline agent",
-            "ar": "خط"
+            "tr": "Müşteri hattı uzmanı",
+            "en": "Customer line agent",
+            "ar": "موظف خط العملاء"
           },
           "bio": {
-            "tr": "4 yıl yanıt.",
-            "en": "4 years of response.",
-            "ar": "٤ سنوات في الرد."
+            "tr": "4 yıl gönderi sorgu ve talep takibi.",
+            "en": "4 years handling shipment enquiries and claims.",
+            "ar": "4 سنوات في الاستفسارات ومتابعة الطلبات."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Göndericilerimiz ne diyor?",
+          "en": "What our shippers say",
+          "ar": "ماذا يقول عملاؤنا المرسلون؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2026,24 +2037,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Koli zamanında; etiket okunur.",
-            "en": "Parcel on time; label readable.",
-            "ar": "شحنة في الوقت؛ الوسمة مقروءة."
+            "tr": "Koliler zamanında geldi; etiketler okunaklıydı.",
+            "en": "Parcels arrived on time; labels were readable.",
+            "ar": "وصلت الطرود في موعدها وكانت الملصقات واضحة."
           }
         },
         {
           "name": "B. Ak.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Mağaza sahibi",
+            "en": "Shop owner",
+            "ar": "صاحب متجر"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Rota bilgisi düzenli geldi.",
-            "en": "Route info arrived regularly.",
-            "ar": "جاءت معلومات المسار بانتظام."
+            "tr": "Takip numarasıyla gönderiyi adım adım izledim.",
+            "en": "I followed the shipment step by step with the tracking number.",
+            "ar": "تابعت الشحنة خطوة بخطوة برقم التتبع."
           }
         },
         {
@@ -2051,14 +2062,14 @@
           "role": {
             "tr": "Alıcı",
             "en": "Recipient",
-            "ar": "مشترى"
+            "ar": "مستلم"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "İmza ve not eksiksiz.",
-            "en": "Signature and note complete.",
-            "ar": "التوقيع والملاحظة كاملان."
+            "tr": "İmza ve teslim notu eksiksizdi.",
+            "en": "The signature and delivery note were complete.",
+            "ar": "كان التوقيع وملاحظة التسليم كاملين."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "6px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Operasyonumuzda neler var?",
+          "en": "What's in our operation",
+          "ar": "ما في عملياتنا؟"
         },
         "title": {
-          "tr": "Nasıl taşıyoruz?",
-          "en": "How do we transport?",
-          "ar": "كيف ننقل؟"
+          "tr": "Filo, depo ve palet",
+          "en": "Fleet, depot and pallets",
+          "ar": "الأسطول والمستودع والبالتات"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Kapıdan teslim",
-            "en": "Door delivery",
-            "ar": "توصيل من الباب"
+            "tr": "Kapıdan kapıya teslim",
+            "en": "Door-to-door delivery",
+            "ar": "توصيل من الباب إلى الباب"
           },
           "metin": {
-            "tr": "Günlük filo ve rota planı.",
-            "en": "Daily fleet and route plan.",
-            "ar": "أسطول يومي وخطة مسار."
+            "tr": "Adresten alım, adrese teslim; imza ve saat kaydıyla.",
+            "en": "Pickup and delivery at the address, with signature and time record.",
+            "ar": "استلام من العنوان وتسليم إلى العنوان مع توقيع وتسجيل للوقت."
           },
           "img": "lojistik-tir.webp",
           "alt": {
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Koli ve palet",
-            "en": "Parcel and pallet",
-            "ar": "شحن وبلط"
+            "tr": "Koli ve palet taşıma",
+            "en": "Parcel and pallet transport",
+            "ar": "نقل الطرود والبالتات"
           },
           "metin": {
-            "tr": "Etiket, koli ve palet işareti.",
-            "en": "Label, parcel and pallet marking.",
-            "ar": "وسمة وبلطة وعلامة."
+            "tr": "Etiketli, sarılı ve sayılı koli ve palet yükleri.",
+            "en": "Labelled, wrapped and counted parcel and pallet loads.",
+            "ar": "طرود وبالتات مُلصقة ومغلّفة ومعدودة."
           },
           "img": "lojistik-forklift.webp",
           "alt": {
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Filo takibi",
-            "en": "Fleet tracking",
-            "ar": "تتبع الأسطول"
+            "tr": "Sefer ve rota planı",
+            "en": "Trip and route planning",
+            "ar": "تخطيط الرحلات والمسارات"
           },
           "metin": {
-            "tr": "Rota ve zaman çizelgesi.",
-            "en": "Route and schedule.",
-            "ar": "مسار وجدول زمني."
+            "tr": "Günlük sefer çizelgesi ve şehirler arası hat.",
+            "en": "Daily trip schedule and intercity lines.",
+            "ar": "جدول رحلات يومي وخطوط بين المدن."
           },
           "img": "lojistik-palet.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "6px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Çalıştığımız işletmeler",
+          "en": "Businesses we work with",
+          "ar": "الأعمال التي نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أعمال افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2291,64 +2302,104 @@
           "ar": "الأسئلة الشائعة"
         },
         "title": {
-          "tr": "Sıkça sorulan sorular",
-          "en": "Frequently asked questions",
-          "ar": "الأسئلة الشائعة"
+          "tr": "Gönderi hakkında sorular",
+          "en": "Questions about shipping",
+          "ar": "أسئلة حول الشحن"
         },
         "description": {
-          "tr": "Merak edilenler ve kısa yanıtlar.",
-          "en": "Common questions and short answers.",
-          "ar": "أسئلة متكررة وإجابات موجزة."
+          "tr": "Teslimat, hasar ve fiyat üzerine kısa yanıtlar.",
+          "en": "Short answers on delivery, damage and pricing.",
+          "ar": "إجابات موجزة عن التسليم والأضرار والأسعار."
         },
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
       },
       "data": [
         {
+          "question": {
+            "tr": "Teslimat hangi günler yapılır?",
+            "en": "On which days are deliveries made?",
+            "ar": "في أي أيام يتم التسليم؟"
+          },
+          "answer": {
+            "tr": "Hafta içi ve cumartesi; saat aralığı bölgeye ve yük boyutuna göre değişir (kurgusal demo bilgisi).",
+            "en": "Weekdays and Saturdays; the time window depends on the area and load size (fictional demo information).",
+            "ar": "من الاثنين إلى السبت؛ تختلف الفترة الزمنية حسب المنطقة وحجم الشحنة (معلومة تجريبية افتراضية)."
+          },
           "soru": {
-            "tr": "Teslimat hangi günler?",
-            "en": "Which days are deliveries?",
-            "ar": "أيام التوصيل?"
+            "tr": "Teslimat hangi günler yapılır?",
+            "en": "On which days are deliveries made?",
+            "ar": "في أي أيام يتم التسليم؟"
           },
           "cevap": {
-            "tr": "Hafta içi; kargo saatine göre (demo).",
-            "en": "Weekdays; by cargo time (demo).",
-            "ar": "أيام العمل؛ حسب وقت الشحن (تجريبي)."
+            "tr": "Hafta içi ve cumartesi; saat aralığı bölgeye ve yük boyutuna göre değişir (kurgusal demo bilgisi).",
+            "en": "Weekdays and Saturdays; the time window depends on the area and load size (fictional demo information).",
+            "ar": "من الاثنين إلى السبت؛ تختلف الفترة الزمنية حسب المنطقة وحجم الشحنة (معلومة تجريبية افتراضية)."
           }
         },
         {
+          "question": {
+            "tr": "Hasarlı koli gelirse ne yapmalıyım?",
+            "en": "What should I do if a parcel arrives damaged?",
+            "ar": "ماذا أفعل إذا وصل الطرد تالفًا؟"
+          },
+          "answer": {
+            "tr": "Teslim anında fotoğraf çekin ve takip numarasıyla bize bildirin; kayıt açılır (demo metni).",
+            "en": "Take a photo on delivery and report it with the tracking number; a claim is opened (demo text).",
+            "ar": "صوّره عند الاستلام وأبلغنا برقم التتبع ليُفتح طلب (نص تجريبي)."
+          },
           "soru": {
-            "tr": "Hasarlı koli için süreç?",
-            "en": "Process for damaged parcel?",
-            "ar": "إجراء الشحنة التالفة?"
+            "tr": "Hasarlı koli gelirse ne yapmalıyım?",
+            "en": "What should I do if a parcel arrives damaged?",
+            "ar": "ماذا أفعل إذا وصل الطرد تالفًا؟"
           },
           "cevap": {
-            "tr": "Fotoğraf ve takip numarası; demo metindir.",
-            "en": "Photo and tracking number; this is a demo text.",
-            "ar": "صورة ورقم تتبع؛ هذا نص تجريبي."
+            "tr": "Teslim anında fotoğraf çekin ve takip numarasıyla bize bildirin; kayıt açılır (demo metni).",
+            "en": "Take a photo on delivery and report it with the tracking number; a claim is opened (demo text).",
+            "ar": "صوّره عند الاستلام وأبلغنا برقم التتبع ليُفتح طلب (نص تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Ağırlık, hacim ve mesafeye göre teklifle belirlenir; bu demoda genel bir fiyat listesi yoktur.",
+            "en": "Priced by quote based on weight, volume and distance; there is no general price list in this demo.",
+            "ar": "يُحدَّد السعر بعرض سعر حسب الوزن والحجم والمسافة؛ لا توجد قائمة أسعار عامة في هذا العرض التجريبي."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Ağırlık, hacim ve mesafeye göre teklifle belirlenir; bu demoda genel bir fiyat listesi yoktur.",
+            "en": "Priced by quote based on weight, volume and distance; there is no general price list in this demo.",
+            "ar": "يُحدَّد السعر بعرض سعر حسب الوزن والحجم والمسافة؛ لا توجد قائمة أسعار عامة في هذا العرض التجريبي."
           }
         }
       ],
@@ -2406,8 +2457,8 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "6px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
+          "tr": "Fiyat teklifi isteyin",
+          "en": "Request a price quote",
           "ar": "اطلب عرض سعر"
         },
         "description": {
@@ -2421,7 +2472,7 @@
           "ar": "Nakliye Kargo"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilîdir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Gönderi talep formu",
+          "en": "Shipment request form",
+          "ar": "نموذج طلب الشحن"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Fiyat teklifi",
+              "en": "Price quote",
+              "ar": "عرض سعر"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Gönderi takibi",
+              "en": "Shipment tracking",
+              "ar": "تتبع شحنة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Toplu gönderi",
+              "en": "Bulk shipment",
+              "ar": "شحن بالجملة"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,30 +2691,30 @@
           "ar": "Nakliye Kargo"
         },
         "description": {
-          "tr": "Nakliye Kargo, kargo ve dağıtım sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Nakliye provides cargo and delivery. Images are representative and text is fictional.",
-          "ar": "يقدم نقلية شحن وتوصيل. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Nakliye Kargo; koli, palet ve parça yük taşımacılığı ile depodan kapıya dağıtım sunan bir kargo ve ekspres firmasıdır. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Nakliye Kargo is a cargo and express company offering parcel, pallet and part-load transport with depot-to-door distribution. Images are representative and text is fictional.",
+          "ar": "Nakliye Kargo شركة شحن سريع تقدم نقل الطرود والبالتات والحمولات الجزئية مع توزيع من المستودع إلى الباب. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Rota tahtası",
-          "en": "Route board",
-          "ar": "لوحة المسارات"
+          "tr": "Sefer panosu",
+          "en": "Trip board",
+          "ar": "لوحة الرحلات"
         },
         "spot2": {
-          "tr": "Gün ve filo aynı panoda.",
-          "en": "Day and fleet in the same panel.",
-          "ar": "اليوم والأسطول في نفس اللوحة."
+          "tr": "Günün seferleri ve araçlar tek ekranda.",
+          "en": "Today's trips and vehicles on one screen.",
+          "ar": "رحلات اليوم والمركبات على شاشة واحدة."
         },
-        "icon2": "verified",
+        "icon2": "route",
         "name3": {
           "tr": "Teslim defteri",
-          "en": "Delivery book",
-          "ar": "دفتر التسليم"
+          "en": "Delivery log",
+          "ar": "سجل التسليم"
         },
         "spot3": {
           "tr": "Her teslim imza ve saat kaydıyla.",
           "en": "Every delivery with signature and time record.",
-          "ar": "كل تسليم بتوقيع وسجل ساعة."
+          "ar": "كل عملية تسليم بتوقيع وتسجيل للوقت."
         },
         "icon3": "schedule",
         "img": "lojistik-depo.webp",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 07:00 – 20:00",
+          "en": "Mon–Sat 07:00 – 20:00",
+          "ar": "الاثنين–السبت 07:00 – 20:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Fiyat teklifi ve gönderi soruları için",
+          "en": "For price quotes and shipment questions",
+          "ar": "لعروض الأسعار وأسئلة الشحنات"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "6px",
         "title": {
-          "tr": "Sevkıyat hazır",
-          "en": "Shipment ready",
-          "ar": "الشحنة جاهزة"
+          "tr": "Gönderiniz hazır mı?",
+          "en": "Is your shipment ready?",
+          "ar": "هل شحنتك جاهزة؟"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج وسنردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Fiyat teklifi al",
+          "en": "Get a price quote",
+          "ar": "احصل على عرض سعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
